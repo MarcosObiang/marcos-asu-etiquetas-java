@@ -1,11 +1,17 @@
 public class Main{
 
-public static void main(String [] args){
+public static void main(String[] args){
 	
-String [] arrayLetras= new String [10]
+String[] arrayLetras= new String[10];
 try{
+
+if( args.length>0){
+
+System.out.println("Hay"+ args.length +" argumento(s)");
 for(int i=0;i<args.length;i++){ 
-System.out.print(args[i])
+System.out.println(args[i]);
+
+}
 
 }
 
